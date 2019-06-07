@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Yatik"
+    android:background="@drawable/bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8sp"
+        tools:layout_editor_absoluteY="8sp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="free tables"
+            android:textSize="50sp"
+            android:layout_marginTop="20sp"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:fontFamily="@font/oregano"/>
+
+        <TextView
+            android:id="@+id/tablesfreeTV"
+            android:textStyle="italic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:layout_weight="1"
+            android:text="please wait"
+            android:layout_marginBottom="20sp"
+            android:textSize="80sp"
+            android:textColor="#ffffff"
+            android:fontFamily="@font/oregano"
+            android:textAlignment="center"/>
+
+        <android.support.v7.widget.CardView
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="20sp"
+            android:layout_marginBottom="20sp"
+            android:id="@+id/bookatablebtn">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Book a table"
+                android:textSize="40sp"
+                android:fontFamily="@font/oregano"
+                android:textAlignment="center"
+                android:layout_marginTop="5sp"
+                android:layout_marginBottom="5sp"
+                android:textColor="#000"/>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="20sp"
+            android:layout_marginBottom="20sp"
+            android:id="@+id/vacatetablebtn">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vacate a table"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="5sp"
+                android:textSize="40sp"
+                android:fontFamily="@font/oregano"
+                android:textAlignment="center"
+                android:layout_marginTop="5sp"
+                android:layout_marginBottom="5sp"
+                android:textColor="#000"/>
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="20sp"
+            android:layout_marginBottom="20sp"
+            android:layout_marginTop="150sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Please wait till data is fetched from server"
+                android:fontFamily="@font/oregano"
+                android:textAlignment="center"
+                android:layout_marginTop="5sp"
+                android:layout_marginBottom="5sp"
+                android:textColor="#000"/>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

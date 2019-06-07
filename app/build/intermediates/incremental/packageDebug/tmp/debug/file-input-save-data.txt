@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Tue Jan 01 20:44:42 IST 2019
+0.baseType=DIRECTORY
+0.base=/home/antailbaxt3r/Desktop/MyRestaurant_v1.6-master/app/build/intermediates/transforms/dexMerger/debug/0
+0.path=classes.dex
+0.set=DEX
+count=1

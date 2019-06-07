@@ -1,0 +1,4 @@
+#Wed Jan 02 00:34:34 IST 2019
+base.0=/home/antailbaxt3r/Desktop/MyRestaurant_v1.6-master/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

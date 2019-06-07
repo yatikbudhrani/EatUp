@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Delivery"
+    tools:showIn="@layout/activity_delivery"
+    android:orientation="vertical"
+    android:weightSum="5"
+    android:background="@drawable/bg">
+
+    <android.support.v7.widget.CardView
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="5sp"
+        app:cardCornerRadius="20sp"
+        android:layout_marginTop="50sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".75"
+        android:layout_marginBottom="20sp"
+        >
+
+    <EditText
+        android:gravity="center_vertical"
+        android:layout_marginBottom="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5sp"
+        android:id="@+id/et1"
+        android:hint="Apartment/ House Number"
+        />
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="5sp"
+        app:cardCornerRadius="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".75"
+        android:layout_marginBottom="20sp"
+        >
+
+        <EditText
+            android:gravity="center_vertical"
+            android:layout_marginBottom="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5sp"
+            android:id="@+id/et2"
+            android:hint="Street Name"
+            />
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="5sp"
+        app:cardCornerRadius="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".75"
+        android:layout_marginBottom="20sp"
+        >
+
+        <EditText
+            android:gravity="center_vertical"
+            android:layout_marginBottom="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5sp"
+            android:id="@+id/et3"
+            android:hint="City Name with Pincode"
+            />
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="5sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn1"
+        app:cardCornerRadius="20sp"
+        android:layout_marginTop="130sp"
+        >
+
+        <TextView
+            android:layout_marginTop="10sp"
+            android:layout_marginBottom="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CHECK AVAILIBILITY"
+            android:fontFamily="@font/oregano"
+            android:textAlignment="center"
+            android:textSize="35sp"
+            android:textColor="#000"
+            />
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

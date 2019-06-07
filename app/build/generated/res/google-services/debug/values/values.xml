@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">881260099980-eeug75tc68k6hmec87mvc7rh97139190.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://livecounter-f3362.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">881260099980</string>
+    <string name="google_api_key" translatable="false">AIzaSyB4WZlKJXTc82_pG1k_I1KKBOAbH1LfZLw</string>
+    <string name="google_app_id" translatable="false">1:881260099980:android:0e1f654b566bcaf1</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyB4WZlKJXTc82_pG1k_I1KKBOAbH1LfZLw</string>
+    <string name="google_storage_bucket" translatable="false">livecounter-f3362.appspot.com</string>
+    <string name="project_id" translatable="false">livecounter-f3362</string>
+</resources>

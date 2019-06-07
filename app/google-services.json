@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "881260099980",
+    "firebase_url": "https://livecounter-f3362.firebaseio.com",
+    "project_id": "livecounter-f3362",
+    "storage_bucket": "livecounter-f3362.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:881260099980:android:0e1f654b566bcaf1",
+        "android_client_info": {
+          "package_name": "com.example.antailbaxt3r.myrestaurant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "881260099980-l6et4rifnfci3697900hh0kn1hv7oif9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.antailbaxt3r.myrestaurant",
+            "certificate_hash": "b0ff76267e0f858ca563fa75460d5f012a37aa00"
+          }
+        },
+        {
+          "client_id": "881260099980-eeug75tc68k6hmec87mvc7rh97139190.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4WZlKJXTc82_pG1k_I1KKBOAbH1LfZLw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "881260099980-eeug75tc68k6hmec87mvc7rh97139190.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:881260099980:android:aaab62e60ab631d4",
+        "android_client_info": {
+          "package_name": "com.example.yatikbudhrani.livecounter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "881260099980-30atq3d6174s6gmihbq0dp5rbd87bh6p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.yatikbudhrani.livecounter",
+            "certificate_hash": "b0ff76267e0f858ca563fa75460d5f012a37aa00"
+          }
+        },
+        {
+          "client_id": "881260099980-eeug75tc68k6hmec87mvc7rh97139190.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4WZlKJXTc82_pG1k_I1KKBOAbH1LfZLw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "881260099980-eeug75tc68k6hmec87mvc7rh97139190.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
